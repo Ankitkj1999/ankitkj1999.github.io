@@ -826,7 +826,7 @@
                       <i class="lnr lnr-bubble"></i>
                       <h4>
                         <a
-                          href="https://linkedin.com/in/ankitkumar"
+                          href="https://linkedin.com/in/ankitkj1999"
                           target="_blank"
                           >[Ankit Kumar]</a
                         >
@@ -874,7 +874,7 @@
                     <form
                       id="contact_form"
                       class="contact-form"
-                      action="https://lmpixels.com/demo/breezycv/dark/1/contact_form/contact_form.php"
+                      action="https://script.google.com/macros/s/AKfycbz7FCE_PJinOYtVJzYwd3QRYTm9izbp84rg4BZUsMY9cDEh-VKshU6SaT7JREFxafWd/exec"
                       method="post"
                     >
                       <div class="messages"></div>
@@ -912,20 +912,6 @@
                               <div class="help-block with-errors"></div>
                             </div>
 
-                            <div class="form-group form-group-with-icon">
-                              <input
-                                id="form_subject"
-                                type="text"
-                                name="subject"
-                                class="form-control"
-                                placeholder=""
-                                required="required"
-                                data-error="Subject is required."
-                              />
-                              <label>Subject</label>
-                              <div class="form-control-border"></div>
-                              <div class="help-block with-errors"></div>
-                            </div>
                           </div>
                           <div class="right-column">
                             <div class="form-group form-group-with-icon">
@@ -945,17 +931,13 @@
                           </div>
                         </div>
 
-                        <div
-                          class="g-recaptcha"
-                          data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI"
-                          data-theme="dark"
-                        ></div>
 
                         <input
                           type="submit"
                           class="button btn-send"
                           value="Send message"
                         />
+                        <div id="form-status" style="margin-top: 10px;"></div>
                       </div>
                     </form>
                   </div>
@@ -978,7 +960,6 @@
     <script src="js/animating.js"></script>
 
     <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="../../../../../www.google.com/recaptcha/api.js"></script>
 
     <script src="js/perfect-scrollbar.min.js"></script>
     <script src="js/jquery.shuffle.min.js"></script>
@@ -995,6 +976,41 @@
       src="../../../../../static.cloudflareinsights.com/beacon.min.js"
       data-cf-beacon='{"rayId":"5b63d9f67f541910","version":"2020.6.0","si":10}'
     ></script>
+    <script>
+      document.getElementById('contact_form').addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const submitBtn = e.target.querySelector('input[type="submit"]');
+        const statusDiv = document.getElementById('form-status');
+        const messagesDiv = document.querySelector('.messages');
+
+        // Clear previous messages
+        messagesDiv.innerHTML = '';
+        statusDiv.innerHTML = '';
+
+        // Show loading state
+        submitBtn.disabled = true;
+        submitBtn.value = 'Sending...';
+        statusDiv.innerHTML = '<div class="alert alert-info">Sending your message...</div>';
+
+        const formData = new FormData(e.target);
+        try {
+          const response = await fetch(e.target.action, { method: 'POST', body: formData });
+          const result = await response.json();
+          if (result.success) {
+            statusDiv.innerHTML = '<div class="alert alert-success">Message sent successfully!</div>';
+            e.target.reset();
+          } else {
+            statusDiv.innerHTML = '<div class="alert alert-danger">Error: ' + result.error + '</div>';
+          }
+        } catch (error) {
+          statusDiv.innerHTML = '<div class="alert alert-danger">Error sending message. Please try again.</div>';
+        } finally {
+          // Reset button
+          submitBtn.disabled = false;
+          submitBtn.value = 'Send message';
+        }
+      });
+    </script>
   </body>
 </html>
 <!-- https://covid-19-app-17f14.web.app/ -->
