@@ -142,7 +142,7 @@
   "links": [
     {
       "name": "Latest Resume",
-      "url": "https://drive.google.com/file/d/1BEtINh9R3LSddlltgN4UDVxo6zpavGaj/view?usp=sharing",
+      "url": "https://ankitkj1999.github.io/Ankitkj1999/Ankit_Kumar_Resume.pdf",
       "icon": "📄",
       "color": "#F5B003",
       "borderColor": "#F5B003"
@@ -181,13 +181,6 @@
       "icon": "📸",
       "color": "#E91E63",
       "borderColor": "#E91E63"
-    },
-    {
-      "name": "YouTube",
-      "url": "https://www.youtube.com/channel/UCPQpSLYCsGp6dclraH3o_5Q",
-      "icon": "📺",
-      "color": "#FF0000",
-      "borderColor": "#FF0000"
     },
     {
       "name": "Hashnode",
