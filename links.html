@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="img/favicon.ico" />
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Ankit Kumar - Links | Connect With Me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Connect with Ankit Kumar - Full-Stack Developer. Find all my social media profiles, portfolio, resume, and contact links in one place." />
+    <meta name="keywords" content="Ankit Kumar, ankitkj1999, Links, Social Media, Contact, Portfolio, Resume" />
+    <meta name="author" content="Ankit Kumar" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Ankit Kumar - All Links" />
+    <meta property="og:description" content="Connect with me on all platforms - Portfolio, Resume, Social Media & More" />
+    <meta property="og:image" content="https://ankitkj1999.github.io/img/main.jpeg" />
+    <meta property="og:url" content="https://ankitkj1999.github.io/links.html" />
+    <meta property="og:type" content="website" />
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Ankit Kumar - All Links" />
+    <meta name="twitter:description" content="Connect with me on all platforms" />
+    <meta name="twitter:image" content="https://ankitkj1999.github.io/img/main.jpeg" />
+    
+    <link rel="shortcut icon" href="favicon.ico" />
+    
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        position: relative;
+        overflow-x: hidden;
+      }
+      
+      /* Animated background effect */
+      body::before {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('img/main_bg.png');
+        opacity: 0.1;
+        z-index: 0;
+        pointer-events: none;
+      }
+      
+      .container {
+        max-width: 680px;
+        width: 100%;
+        position: relative;
+        z-index: 1;
+        animation: fadeInUp 0.8s ease-out;
+      }
+      
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      
+      .profile-section {
+        text-align: center;
+        margin-bottom: 30px;
+        animation: fadeInUp 0.8s ease-out 0.2s both;
+      }
+      
+      .profile-image {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        border: 4px solid #fff;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+        margin: 0 auto 20px;
+        display: block;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+      }
+      
+      .profile-image:hover {
+        transform: scale(1.05);
+      }
+      
+      .profile-name {
+        font-size: 32px;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 8px;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      
+      .profile-title {
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.9);
+        font-weight: 400;
+        margin-bottom: 15px;
+      }
+      
+      .portfolio-link {
+        display: inline-block;
+        color: #fff;
+        text-decoration: none;
+        font-size: 14px;
+        padding: 8px 20px;
+        border: 2px solid rgba(255, 255, 255, 0.3);
+        border-radius: 20px;
+        transition: all 0.3s ease;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+      }
+      
+      .portfolio-link:hover {
+        background: rgba(255, 255, 255, 0.2);
+        border-color: rgba(255, 255, 255, 0.6);
+        transform: translateY(-2px);
+      }
+      
+      .links-grid {
+        display: grid;
+        gap: 16px;
+      }
+      
+      .link-card {
+        background: #fff;
+        border-radius: 12px;
+        padding: 20px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        position: relative;
+        overflow: hidden;
+        border: 3px solid transparent;
+        animation: fadeInUp 0.6s ease-out both;
+      }
+      
+      .link-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, var(--card-color) 0%, var(--card-color) 100%);
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        z-index: 0;
+      }
+      
+      .link-card:hover::before {
+        opacity: 0.08;
+      }
+      
+      .link-card:hover {
+        transform: translateY(-4px) scale(1.02);
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+        border-color: var(--card-color);
+      }
+      
+      .link-card:active {
+        transform: translateY(-2px) scale(0.98);
+      }
+      
+      .link-icon {
+        font-size: 32px;
+        min-width: 40px;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+      }
+      
+      .link-content {
+        flex: 1;
+        position: relative;
+        z-index: 1;
+      }
+      
+      .link-name {
+        font-size: 18px;
+        font-weight: 600;
+        color: #333;
+        margin: 0;
+      }
+      
+      .link-arrow {
+        font-size: 20px;
+        color: #999;
+        transition: all 0.3s ease;
+        position: relative;
+        z-index: 1;
+      }
+      
+      .link-card:hover .link-arrow {
+        color: var(--card-color);
+        transform: translateX(5px);
+      }
+      
+      .footer {
+        text-align: center;
+        margin-top: 40px;
+        padding: 20px;
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 14px;
+        animation: fadeInUp 0.8s ease-out 0.4s both;
+      }
+      
+      .footer a {
+        color: #fff;
+        text-decoration: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+        transition: border-color 0.3s ease;
+      }
+      
+      .footer a:hover {
+        border-bottom-color: #fff;
+      }
+      
+      /* Stagger animation for cards */
+      .link-card:nth-child(1) { animation-delay: 0.1s; }
+      .link-card:nth-child(2) { animation-delay: 0.15s; }
+      .link-card:nth-child(3) { animation-delay: 0.2s; }
+      .link-card:nth-child(4) { animation-delay: 0.25s; }
+      .link-card:nth-child(5) { animation-delay: 0.3s; }
+      .link-card:nth-child(6) { animation-delay: 0.35s; }
+      .link-card:nth-child(7) { animation-delay: 0.4s; }
+      .link-card:nth-child(8) { animation-delay: 0.45s; }
+      .link-card:nth-child(9) { animation-delay: 0.5s; }
+      .link-card:nth-child(10) { animation-delay: 0.55s; }
+      .link-card:nth-child(11) { animation-delay: 0.6s; }
+      .link-card:nth-child(12) { animation-delay: 0.65s; }
+      .link-card:nth-child(13) { animation-delay: 0.7s; }
+      
+      @media (max-width: 600px) {
+        .profile-name {
+          font-size: 28px;
+        }
+        
+        .profile-title {
+          font-size: 14px;
+        }
+        
+        .link-card {
+          padding: 16px;
+        }
+        
+        .link-icon {
+          font-size: 28px;
+        }
+        
+        .link-name {
+          font-size: 16px;
+        }
+      }
+    </style>
+  </head>
+  
+  <body>
+    <div class="container">
+      <!-- Profile Section -->
+      <div class="profile-section">
+        <img src="img/main.jpeg" alt="Ankit Kumar" class="profile-image" />
+        <h1 class="profile-name" id="profileName">Ankit Kumar</h1>
+        <p class="profile-title" id="profileTitle">Software Engineer | Full-Stack Developer</p>
+        <a href="index.html" class="portfolio-link">📂 View Full Portfolio</a>
+      </div>
+      
+      <!-- Links Grid -->
+      <div class="links-grid" id="linksContainer">
+        <!-- Links will be dynamically loaded here -->
+      </div>
+      
+      <!-- Footer -->
+      <div class="footer">
+        Made with ❤️ by <a href="index.html">Ankit Kumar</a>
+      </div>
+    </div>
+    
+    <script>
+      // Fetch data from data.json
+      fetch('data.json')
+        .then(response => response.json())
+        .then(data => {
+          // Update profile info
+          if (data.personalInfo) {
+            document.getElementById('profileName').textContent = data.personalInfo.name;
+            document.getElementById('profileTitle').textContent = data.personalInfo.titles.join(' | ');
+          }
+          
+          // Render links
+          if (data.links) {
+            const linksContainer = document.getElementById('linksContainer');
+            
+            data.links.forEach(link => {
+              const linkCard = document.createElement('a');
+              linkCard.className = 'link-card';
+              linkCard.href = link.url;
+              linkCard.target = '_blank';
+              linkCard.rel = 'noopener noreferrer';
+              linkCard.style.setProperty('--card-color', link.color);
+              
+              linkCard.innerHTML = `
+                <div class="link-icon">${link.icon}</div>
+                <div class="link-content">
+                  <h3 class="link-name">${link.name}</h3>
+                </div>
+                <div class="link-arrow">→</div>
+              `;
+              
+              linksContainer.appendChild(linkCard);
+            });
+          }
+        })
+        .catch(error => {
+          console.error('Error loading data:', error);
+          // Fallback to showing a message
+          document.getElementById('linksContainer').innerHTML = '<p style="color: white; text-align: center;">Unable to load links. Please try again later.</p>';
+        });
+    </script>
+  </body>
+</html>

@@ -138,5 +138,98 @@
     "linkedin": "https://linkedin.com/in/ankitkj1999",
     "buyMeCoffee": "https://www.buymeacoffee.com/ankit",
     "freelance": "Available"
-  }
+  },
+  "links": [
+    {
+      "name": "Latest Resume",
+      "url": "https://drive.google.com/file/d/1BEtINh9R3LSddlltgN4UDVxo6zpavGaj/view?usp=sharing",
+      "icon": "📄",
+      "color": "#F5B003",
+      "borderColor": "#F5B003"
+    },
+    {
+      "name": "Portfolio",
+      "url": "https://ankitkj1999.github.io/",
+      "icon": "💼",
+      "color": "#7C4DFF",
+      "borderColor": "#7C4DFF"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Ankitkj1999",
+      "icon": "🐦",
+      "color": "#03A9F4",
+      "borderColor": "#03A9F4"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/ankitkj1999",
+      "icon": "💻",
+      "color": "#24292e",
+      "borderColor": "#24292e"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/ankitkj1999/",
+      "icon": "💼",
+      "color": "#2196F3",
+      "borderColor": "#2196F3"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/app.ankitkumar/",
+      "icon": "📸",
+      "color": "#E91E63",
+      "borderColor": "#E91E63"
+    },
+    {
+      "name": "YouTube",
+      "url": "https://www.youtube.com/channel/UCPQpSLYCsGp6dclraH3o_5Q",
+      "icon": "📺",
+      "color": "#FF0000",
+      "borderColor": "#FF0000"
+    },
+    {
+      "name": "Hashnode",
+      "url": "https://hashnode.com/@ankitkj1999",
+      "icon": "✍️",
+      "color": "#00BCD4",
+      "borderColor": "#00BCD4"
+    },
+    {
+      "name": "Gmail",
+      "url": "mailto:ankit.k.j1999@gmail.com",
+      "icon": "📧",
+      "color": "#F44336",
+      "borderColor": "#F44336"
+    },
+    {
+      "name": "GeeksForGeeks",
+      "url": "https://auth.geeksforgeeks.org/user/ankit_kumar_/articles",
+      "icon": "💚",
+      "color": "#4CAF50",
+      "borderColor": "#4CAF50"
+    },
+    {
+      "name": "CodeWars",
+      "url": "https://www.codewars.com/users/Ankitkj1999",
+      "icon": "⚔️",
+      "color": "#FF5722",
+      "borderColor": "#000000"
+    },
+    {
+      "name": "PlayStore",
+      "url": "https://play.google.com/store/apps/details?id=com.ankitkumar.maths_tricks_alpha",
+      "icon": "📱",
+      "color": "#03A9F4",
+      "borderColor": "#03A9F4"
+    },
+    {
+      "name": "WhatsApp",
+      "url": "https://wa.link/ve17w9",
+      "icon": "💬",
+      "color": "#4CAF50",
+      "borderColor": "#4CAF50"
+    }
+  ]
 }
