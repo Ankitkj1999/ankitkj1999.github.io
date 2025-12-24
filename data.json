@@ -1,0 +1,142 @@
+{
+  "personalInfo": {
+    "name": "Ankit Kumar",
+    "titles": ["Software Engineer", "Full-Stack Developer", "AI Enthusiast"],
+    "bio": "I'm a full-stack developer with 3 years of experience specializing in React, Node.js, Flutter, and cloud infrastructure. I've optimized backend systems reducing latency by 99.6%, deployed 1,700+ production updates with zero downtime, and built applications serving 25K+ users. Currently working at Zalon, architecting microservices and e-commerce platforms.",
+    "residence": "India",
+    "email": "ankit.k.j1999@gmail.com"
+  },
+  "services": [
+    {
+      "title": "Web Development",
+      "description": "I've been developing full-stack web applications for several years, specializing in React, Next.js, Node.js, and cloud deployment. Built e-commerce platforms, learning platforms, and management systems."
+    },
+    {
+      "title": "DevOps & Cloud",
+      "description": "Experienced in cloud infrastructure with AWS, Docker, CI/CD pipelines, and microservices architecture. Optimized systems for scalability and performance."
+    }
+  ],
+  "experience": [
+    {
+      "period": "April 2024 - Present",
+      "company": "Zalon",
+      "position": "Software Development Engineer",
+      "description": "Leading development of e-commerce web and mobile applications. Architected scalable microservices infrastructure on AWS with zero downtime deployments. Optimized backend performance achieving 99.6% latency reduction. Managing 14+ Node.js microservices and developed 4+ Flutter/Angular applications reaching 25K+ downloads and 10K+ monthly active users."
+    },
+    {
+      "period": "September 2023 - April 2024",
+      "company": "Techtonic",
+      "position": "Junior Mobile Developer",
+      "description": "Led development of cross-platform invoice management app for SaaS platform trusted by MNCs. Optimized modules to achieve 100% crash-free sessions and improved user retention by 21%. Contributed to 4% monthly increase in billables."
+    },
+    {
+      "period": "June 2023 - September 2023",
+      "company": "Tekniko",
+      "position": "Software Development Intern",
+      "description": "Developed and deployed student networking platform with real-time features, article feeds, and event management. Successfully scaled to 100K downloads with strong user engagement metrics."
+    }
+  ],
+  "education": [
+    {
+      "period": "2019 - 2023",
+      "institution": "Lovely Professional University",
+      "degree": "B.Tech. Computer Science Engineering",
+      "location": "Punjab, India"
+    }
+  ],
+  "skills": {
+    "languages": "JavaScript, TypeScript, Python, Dart, SQL",
+    "frontend": "React, Next.js, Angular, Flutter, Tailwind CSS",
+    "backend": "Node.js, Express, Flask, FastAPI, REST APIs, GraphQL",
+    "databases": "MongoDB, PostgreSQL, Redis, MySQL",
+    "cloudDevOps": "AWS (EC2, S3, SNS, CloudFront), Docker, CI/CD, GitHub Actions",
+    "tools": "Git, Postman, Figma, Linux, VS Code"
+  },
+  "awards": [
+    "AWS Certified Cloud Practitioner (Jan 2025 - Jan 2028)",
+    "7M+ views on 65+ technical articles on GeeksforGeeks",
+    "Codechef 5* Star Rating"
+  ],
+  "portfolio": [
+    {
+      "name": "Zalon E-commerce Platform",
+      "category": "Web & Mobile App",
+      "image": "img/portfolio/zalon.png",
+      "link": "https://zalon.in"
+    },
+    {
+      "name": "Student Tribe Platform",
+      "category": "Mobile App",
+      "image": "img/portfolio/student_tribe.png",
+      "link": "https://studenttribe.in/"
+    },
+    {
+      "name": "ZBills.in - Salon Management",
+      "category": "Web Application",
+      "image": "img/portfolio/zbills.png",
+      "link": "https://zbills.in"
+    },
+    {
+      "name": "GK Sage - AI Learning Platform",
+      "category": "Web Application",
+      "image": "img/portfolio/ai_learning_platform.png",
+      "link": "https://gksage.com"
+    },
+    {
+      "name": "Ecollat - Invoice Management",
+      "category": "Mobile App",
+      "image": "img/portfolio/ecollat.png",
+      "link": "https://www.ecollat.com/"
+    },
+    {
+      "name": "GK Sage Quiz App",
+      "category": "Mobile App",
+      "image": "img/portfolio/gk_sage_quiz_app.png",
+      "link": "https://github.com/Ankitkj1999/gk-sage-app"
+    },
+    {
+      "name": "GK Sage Admin Panel",
+      "category": "Web Application",
+      "image": "img/portfolio/gk_sage_admin_panel.png",
+      "link": "https://github.com/Ankitkj1999/gk-sage-admin"
+    },
+    {
+      "name": "Typing Test CLI Tool",
+      "category": "CLI Tool",
+      "image": "img/portfolio/typing_test_cli_tool.png",
+      "link": "https://github.com/Ankitkj1999/typingTest"
+    },
+    {
+      "name": "Mira AI - Real Estate Chatbot",
+      "category": "Web Application",
+      "image": "img/portfolio/mira_ai.png",
+      "link": "https://github.com/Ankitkj1999/mira-ai"
+    },
+    {
+      "name": "Maths Tricks Pro App",
+      "category": "Mobile App",
+      "image": "img/portfolio/math_trick_pro.png",
+      "link": "https://github.com/Ankitkj1999/math_tricks_pro"
+    }
+  ],
+  "blog": [
+    {
+      "title": "Technical Articles & Tutorials",
+      "link": "https://www.geeksforgeeks.org/profile/ankit_kumar_?tab=articles",
+      "image": "img/portfolio/geeksforgeeks_writing.png",
+      "date": "Technical Writing"
+    },
+    {
+      "title": "Developer Blog",
+      "link": "https://ankitkj1999.hashnode.dev/",
+      "image": "img/portfolio/hashnode_writing.png",
+      "date": "Developer Insights"
+    }
+  ],
+  "contact": {
+    "location": "Gurugram, India",
+    "linkedin": "https://linkedin.com/in/ankitkj1999",
+    "buyMeCoffee": "https://www.buymeacoffee.com/ankit",
+    "freelance": "Available"
+  }
+}
