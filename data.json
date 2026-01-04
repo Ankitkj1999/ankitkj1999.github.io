@@ -61,61 +61,91 @@
       "name": "Zalon E-commerce Platform",
       "category": "Web & Mobile App",
       "image": "img/portfolio/zalon.png",
-      "link": "https://zalon.in"
+      "link": "https://zalon.in",
+      "description": "Next.js-based e-commerce platform with SSR, managing 14+ microservices. Optimized API latency from 18s to 63ms and maintained zero downtime across 1,700+ deployments.",
+      "tech": "Next.js • Node.js • AWS • RabbitMQ • Redis • MongoDB • Flutter",
+      "isPersonal": false
     },
     {
       "name": "Student Tribe Platform",
       "category": "Mobile App",
       "image": "img/portfolio/student_tribe.png",
-      "link": "https://studenttribe.in/"
+      "link": "https://studenttribe.in/",
+      "description": "Cross-platform mobile app offering internships, events, and networking for students. Achieved 100K downloads with 12-minute average user engagement.",
+      "tech": "Flutter • Firebase • GetX • REST API",
+      "isPersonal": false
     },
     {
       "name": "ZBills.in - Salon Management",
       "category": "Web Application",
       "image": "img/portfolio/zbills.png",
-      "link": "https://zbills.in"
+      "link": "https://zbills.in",
+      "description": "Modern, all-in-one salon management system for beauty and wellness businesses. Streamlines operations with comprehensive booking, inventory, and client management.",
+      "tech": "React • Node.js • Express • MongoDB",
+      "isPersonal": false
     },
     {
       "name": "GK Sage - AI Learning Platform",
       "category": "Web Application",
       "image": "img/portfolio/ai_learning_platform.png",
-      "link": "https://github.com/Ankitkj1999/AI_Course"
+      "link": "https://gksage.com",
+      "description": "Full-stack AI-powered learning platform that auto-generates courses with rich media, interactive quizzes, and flashcards. Features secure authentication and payment integration.",
+      "tech": "React • Node.js • MongoDB • Docker • AWS • GenAI",
+      "isPersonal": true
     },
     {
       "name": "Ecollat - Invoice Management",
       "category": "Mobile App",
       "image": "img/portfolio/ecollat.png",
-      "link": "https://www.ecollat.com/"
+      "link": "https://www.ecollat.com/",
+      "description": "Cross-platform invoice management app for SaaS platforms trusted by MNCs. Achieved 100% crash-free sessions and 21% improved user retention.",
+      "tech": "Flutter • Firebase • Bloc • REST API • Hive",
+      "isPersonal": false
     },
     {
       "name": "GK Sage Quiz App",
       "category": "Mobile App",
       "image": "img/portfolio/gk_sage_quiz_app.png",
-      "link": "https://github.com/Ankitkj1999/gk-sage-app"
+      "link": "https://github.com/Ankitkj1999/gk-sage-app",
+      "description": "Comprehensive cross-platform quiz app supporting Android, iOS, and web. Features admin panel for content management, offline support, and multimedia-rich questions.",
+      "tech": "Flutter • Dart • Drift DB",
+      "isPersonal": true
     },
     {
       "name": "GK Sage Admin Panel",
       "category": "Web Application",
       "image": "img/portfolio/gk_sage_admin_panel.png",
-      "link": "https://github.com/Ankitkj1999/gk-sage-admin"
+      "link": "https://github.com/Ankitkj1999/gk-sage-admin",
+      "description": "Lightweight Flutter-based web admin panel for managing quizzes, questions, categories, and users. Offers responsive dashboard with CRUD operations and analytics.",
+      "tech": "Flutter • Dart • Firebase",
+      "isPersonal": true
     },
     {
       "name": "Typing Test CLI Tool",
       "category": "CLI Tool",
       "image": "img/portfolio/typing_test_cli_tool.png",
-      "link": "https://github.com/Ankitkj1999/typingTest"
+      "link": "https://github.com/Ankitkj1999/typingTest",
+      "description": "Command-line typing speed tester in Go with real-time feedback. Calculates WPM, CPM, and accuracy using curated word lists.",
+      "tech": "Go",
+      "isPersonal": true
     },
     {
       "name": "Mira AI - Real Estate Chatbot",
       "category": "Web Application",
       "image": "img/portfolio/mira_ai.png",
-      "link": "https://github.com/Ankitkj1999/mira-ai"
+      "link": "https://github.com/Ankitkj1999/mira-ai",
+      "description": "Advanced real estate assistant using RAG for conversational property searches. Query homes by price, location, and features with context-aware recommendations.",
+      "tech": "React.js • Node.js • MongoDB • LangChain.js • Google Gemini",
+      "isPersonal": true
     },
     {
       "name": "Maths Tricks Pro App",
       "category": "Mobile App",
       "image": "img/portfolio/math_trick_pro.png",
-      "link": "https://github.com/Ankitkj1999/math_tricks_pro"
+      "link": "https://github.com/Ankitkj1999/math_tricks_pro",
+      "description": "Offline-first Flutter app for mathematical shortcuts and tricks. Provides quick-reference guides and examples for complex calculations.",
+      "tech": "Flutter • Dart",
+      "isPersonal": true
     }
   ],
   "blog": [
