@@ -1292,23 +1292,22 @@ input[type="text"],
   cursor: pointer;
 }
 .portfolio-grid {
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 0;
+  margin: 0 -20px 30px;
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  padding: 10px 0;
 }
 .portfolio-grid figure {
-  width: calc(33.33333% - 16px);
+  width: calc(33.33333% - 40px);
   position: relative;
   overflow: hidden;
+  margin: 0 20px 40px;
 }
 .portfolio-grid.one-column figure {
-  width: 100%;
+  width: calc(100% - 40px);
 }
 .portfolio-grid.two-columns figure {
-  width: calc(50% - 12px);
+  width: calc(50% - 40px);
 }
 .portfolio-grid.three-columns figure {
   width: calc(33.33333% - 16px);
@@ -1411,46 +1410,54 @@ input[type="text"],
 .portfolio-grid figure {
   display: flex;
   flex-direction: column;
-  min-height: 380px;
+  min-height: 450px;
   background: #3a3a3a;
   border-radius: 8px;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
+  margin-bottom: 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.portfolio-grid figure:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
 .portfolio-grid figure .portfolio-item-img {
   border-radius: 8px 8px 0 0;
 }
 .portfolio-grid figure .name {
   display: block;
-  padding: 12px 12px 5px 12px;
-  font-size: 15px;
+  padding: 20px 22px 10px 22px;
+  font-size: 17px;
   position: relative;
   margin: 0;
+  font-weight: 600;
 }
 .portfolio-grid figure .portfolio-desc {
   display: block;
-  font-size: 12px;
-  color: #a0a0a0;
-  line-height: 1.5em;
+  font-size: 14px;
+  color: #b0b0b0;
+  line-height: 1.7em;
   margin: 0;
-  padding: 0 12px;
+  padding: 0 22px 10px 22px;
   flex-grow: 1;
 }
 .portfolio-grid figure .portfolio-tech {
   display: block;
-  font-size: 10px;
-  color: #777;
+  font-size: 12px;
+  color: #888;
   font-weight: 500;
-  padding: 8px 12px;
+  padding: 12px 22px;
   margin: 0;
 }
 .portfolio-grid figure .portfolio-link {
   display: inline-block;
-  font-size: 12px;
+  font-size: 13px;
   color: #04b4e0;
   text-decoration: none;
   border-bottom: 1px solid #04b4e0;
-  padding-bottom: 2px;
-  margin: 0 12px;
+  padding-bottom: 3px;
+  margin: 0 22px 18px;
   transition: opacity 0.2s;
   position: relative;
   z-index: 5;
