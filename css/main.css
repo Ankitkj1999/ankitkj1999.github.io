@@ -1292,22 +1292,23 @@ input[type="text"],
   cursor: pointer;
 }
 .portfolio-grid {
-  margin: 0 -20px 30px;
+  margin: 0 -30px 30px !important;
   display: flex;
   flex-wrap: wrap;
-  padding: 10px 0;
+  padding: 10px 0 !important;
 }
 .portfolio-grid figure {
-  width: calc(33.33333% - 40px);
+  width: calc(33.33333% - 60px) !important;
   position: relative;
   overflow: hidden;
-  margin: 0 20px 40px;
+  margin: 0 30px 60px 30px !important;
 }
 .portfolio-grid.one-column figure {
-  width: calc(100% - 40px);
+  width: calc(100% - 60px) !important;
 }
 .portfolio-grid.two-columns figure {
-  width: calc(50% - 40px);
+  width: calc(50% - 60px) !important;
+  margin: 0 30px 60px 30px !important;
 }
 .portfolio-grid.three-columns figure {
   width: calc(33.33333% - 16px);
