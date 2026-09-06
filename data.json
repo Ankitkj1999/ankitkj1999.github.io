@@ -1,60 +1,67 @@
 {
   "personalInfo": {
     "name": "Ankit Kumar",
-    "titles": ["Software Engineer", "Full-Stack Developer", "AI Enthusiast"],
-    "bio": "I'm a full-stack developer with 3 years of experience specializing in React, Node.js, Flutter, and cloud infrastructure. I've optimized backend systems reducing latency by 99.6%, deployed 1,700+ production updates with zero downtime, and built applications serving 25K+ users. Currently working at Zalon, architecting microservices and e-commerce platforms.",
-    "residence": "India",
+    "titles": ["Data Engineer", "ETL Pipeline Builder", "Cloud Data Architect"],
+    "bio": "Data Engineer with 3+ years of experience building automated ETL pipelines, streaming systems, and cloud data infrastructure across hospitality, e-commerce, and SaaS. Skilled in Python, SQL, PySpark, Scala, AWS, Terraform, and GitHub Actions, with experience across Redshift, S3, MongoDB, PostgreSQL, and AWS Glue.",
+    "residence": "Gurugram, Haryana, India",
     "email": "ankit.k.j1999@gmail.com"
   },
   "services": [
     {
-      "title": "Web Development",
-      "description": "I've been developing full-stack web applications for several years, specializing in React, Next.js, Node.js, and cloud deployment. Built e-commerce platforms, learning platforms, and management systems."
+      "title": "Data Engineering & ETL",
+      "description": "Building automated ETL pipelines and streaming systems at scale. Experienced with AWS Glue, PySpark, Apache Airflow, and Kinesis — processing millions of records daily with zero data loss."
     },
     {
-      "title": "DevOps & Cloud",
-      "description": "Experienced in cloud infrastructure with AWS, Docker, CI/CD pipelines, and microservices architecture. Optimized systems for scalability and performance."
+      "title": "Cloud Data Infrastructure",
+      "description": "Designing and provisioning cloud data infrastructure on AWS using Terraform and GitHub Actions CI/CD. Expertise in Redshift, S3, Lambda, and Glue for scalable data warehousing solutions."
     }
   ],
   "experience": [
     {
-      "period": "April 2024 - Present",
+      "period": "July 2026 - Present",
+      "company": "Lemon Tree Hotels",
+      "position": "Data Engineer",
+      "description": "Implemented Terraform + GitHub Actions CI/CD for AWS Lambda deployments. Migrated 65+ AWS Glue jobs into a systematic, pipeline-oriented Git repository with 300+ unit and integration tests. Rewrote customer deduplication pipeline using PySpark with BFS for scalable graph traversal. Resolved intermittent Tableau data-source refresh failures by migrating to controlled sequential execution."
+    },
+    {
+      "period": "April 2024 - July 2026",
       "company": "Zalon",
-      "position": "Software Development Engineer",
-      "description": "Leading development of e-commerce web and mobile applications. Architected scalable microservices infrastructure on AWS with zero downtime deployments. Optimized backend performance achieving 99.6% latency reduction. Managing 14+ Node.js microservices and developed 4+ Flutter/Angular applications reaching 25K+ downloads and 10K+ monthly active users."
+      "position": "Data Engineer",
+      "description": "Led a team of 4 Data Engineers designing, developing, and optimizing data pipelines and ETL processes for an e-commerce and SaaS platform. Built scalable real-time event ingestion using AWS Kinesis and Lambda, processing 5M+ daily records with zero data loss. Architected 10+ AWS Glue (PySpark) and Python ETL pipelines covering 500,000+ SKUs; migrated legacy MongoDB records into centralized Redshift/PostgreSQL warehouses."
     },
     {
       "period": "September 2023 - April 2024",
       "company": "Techtonic",
-      "position": "Junior Mobile Developer",
-      "description": "Led development of cross-platform invoice management app for SaaS platform trusted by MNCs. Optimized modules to achieve 100% crash-free sessions and improved user retention by 21%. Contributed to 4% monthly increase in billables."
+      "position": "Data Engineer",
+      "description": "Built Python-based REST API ingestion pipelines into PostgreSQL, processing 50K+ records daily with validation, deduplication, and SQL reporting views. Leveraged Firebase Analytics event data to identify user drop-offs, contributing to a 21% improvement in retention. Archived processed exports to AWS S3 for audit compliance and versioned backup."
     },
     {
       "period": "June 2023 - September 2023",
       "company": "Tekniko",
-      "position": "Software Development Intern",
-      "description": "Developed and deployed student networking platform with real-time features, article feeds, and event management. Successfully scaled to 100K downloads with strong user engagement metrics."
+      "position": "Data Engineering Intern",
+      "description": "Built Python and Pandas pipelines to clean, deduplicate, and schema-normalize 100K+ records of raw activity data. Automated PostgreSQL loading and eliminated 10+ hours/week of manual reporting effort."
     }
   ],
   "education": [
     {
       "period": "2019 - 2023",
       "institution": "Lovely Professional University",
-      "degree": "B.Tech. Computer Science Engineering",
+      "degree": "B.Tech. in Computer Science & Engineering",
       "location": "Punjab, India"
     }
   ],
   "skills": {
-    "languages": "JavaScript, TypeScript, Python, Dart, SQL",
-    "frontend": "React, Next.js, Angular, Flutter, Tailwind CSS",
-    "backend": "Node.js, Express, Flask, FastAPI, REST APIs, GraphQL",
-    "databases": "MongoDB, PostgreSQL, Redis, MySQL",
-    "cloudDevOps": "AWS (EC2, S3, SNS, CloudFront), Docker, CI/CD, GitHub Actions",
-    "tools": "Git, Postman, Figma, Linux, VS Code"
+    "languages": "Python, SQL, Scala, Bash",
+    "bigData": "PySpark, Apache Spark, Spark SQL, GraphX, Pandas, Databricks",
+    "cloud": "AWS S3, Redshift, Glue, Kinesis, Lambda, SNS, CloudWatch, EC2, ECR",
+    "streaming": "AWS Kinesis, RabbitMQ, Elasticsearch / OpenSearch",
+    "databases": "PostgreSQL, MongoDB, Redis, MySQL",
+    "orchestration": "Apache Airflow, GitHub Actions, Terraform",
+    "devops": "Docker, Linux, Node.js, FastAPI"
   },
   "awards": [
     "AWS Certified Cloud Practitioner (Jan 2025 - Jan 2028)",
-    "7M+ views on 65+ technical articles on GeeksforGeeks"
+    "Published 65+ technical articles on GeeksforGeeks accumulating 7M+ total views"
   ],
   "portfolio": [
     {
@@ -171,7 +178,7 @@
   "links": [
     {
       "name": "Latest Resume",
-      "url": "https://ankitkj1999.github.io/Ankitkj1999/Ankit_Kumar_Resume.pdf",
+      "url": "https://ankitkj1999.github.io/Ankit_Kumar_Resume.pdf",
       "icon": "📄",
       "color": "#F5B003",
       "borderColor": "#F5B003"
