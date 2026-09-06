@@ -12,7 +12,7 @@
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
-\input{glyphtounicode}
+% glyphtounicode is pdflatex-only; tectonic/XeTeX handles unicode natively
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -35,7 +35,7 @@
   \vspace{-4pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
-\pdfgentounicode=1
+% pdfgentounicode is pdflatex-only; not needed with XeTeX
 
 \newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
 \newcommand{\resumeSubheading}[4]{
