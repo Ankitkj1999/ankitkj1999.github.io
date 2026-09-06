@@ -61,7 +61,8 @@
   },
   "awards": [
     "AWS Certified Cloud Practitioner (Jan 2025 - Jan 2028)",
-    "Published 65+ technical articles on GeeksforGeeks accumulating 7M+ total views"
+    "Published 65+ technical articles on GeeksforGeeks accumulating 7M+ total views",
+    "Rank #4 on DataPathSala (Data Engineering platform) · 301/439 problems solved · 64-day streak · Level 8 Grandmaster"
   ],
   "portfolio": [
     {
@@ -189,6 +190,13 @@
       "icon": "💼",
       "color": "#7C4DFF",
       "borderColor": "#7C4DFF"
+    },
+    {
+      "name": "DataPathSala",
+      "url": "https://datapathsala.com/u/Ankit_Kumar_1999",
+      "icon": "🗄️",
+      "color": "#3B82F6",
+      "borderColor": "#3B82F6"
     },
     {
       "name": "Twitter",
