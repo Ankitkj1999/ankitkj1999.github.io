@@ -18,16 +18,16 @@
   ],
   "experience": [
     {
-      "period": "July 2026 - Present",
+      "period": "June 2026 - Present",
       "company": "Lemon Tree Hotels",
       "position": "Data Engineer",
       "description": "Implemented Terraform + GitHub Actions CI/CD for AWS Lambda deployments. Migrated 65+ AWS Glue jobs into a systematic, pipeline-oriented Git repository with 300+ unit and integration tests. Rewrote customer deduplication pipeline using PySpark with BFS for scalable graph traversal. Resolved intermittent Tableau data-source refresh failures by migrating to controlled sequential execution."
     },
     {
-      "period": "April 2024 - July 2026",
+      "period": "April 2024 - June 2026",
       "company": "Zalon",
       "position": "Data Engineer",
-      "description": "Led a team of 4 Data Engineers designing, developing, and optimizing data pipelines and ETL processes for an e-commerce and SaaS platform. Built scalable real-time event ingestion using AWS Kinesis and Lambda, processing 5M+ daily records with zero data loss. Architected 10+ AWS Glue (PySpark) and Python ETL pipelines covering 500,000+ SKUs; migrated legacy MongoDB records into centralized Redshift/PostgreSQL warehouses."
+      "description": "Designed and implemented a real-time data ingestion architecture using AWS Kinesis, Lambda, and S3 to capture and process 5M+ application events daily. Built and optimized 10+ AWS Glue/PySpark and Python ETL pipelines for processing 500K+ SKUs, migrating legacy MongoDB data into Redshift/PostgreSQL. Implemented automated data quality, schema-drift, deduplication, and normalization frameworks, and spearheaded AWS cost optimization cutting monthly infrastructure spend by 28%."
     },
     {
       "period": "September 2023 - April 2024",
@@ -62,7 +62,7 @@
   "awards": [
     "AWS Certified Cloud Practitioner (Jan 2025 - Jan 2028)",
     "Published 65+ technical articles on GeeksforGeeks accumulating 7M+ total views",
-    "Rank #4 on DataPathSala (Data Engineering platform) · 301/439 problems solved · 64-day streak · Level 8 Grandmaster"
+    "Rank #4 (Grandmaster) on DataPathSala (Data Engineering platform)"
   ],
   "portfolio": [
     {

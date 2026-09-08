@@ -23,8 +23,8 @@
 \addtolength{\oddsidemargin}{-0.5in}
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.65in}
-\addtolength{\textheight}{1.25in}
+\addtolength{\topmargin}{-.70in}
+\addtolength{\textheight}{1.40in}
 
 \urlstyle{same}
 \raggedbottom
@@ -32,30 +32,30 @@
 \setlength{\tabcolsep}{0in}
 
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+  \vspace{-3pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
 
 % pdfgentounicode is pdflatex-only; not needed with XeTeX
 
 \newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
 \newcommand{\resumeSubheading}[4]{
-  \vspace{-2pt}\item
+  \vspace{1pt}\item
   \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
     \textbf{#1} & #2 \\
     \textit{\small#3} & \textit{\small #4} \\
-  \end{tabular*}\vspace{-7pt}
+  \end{tabular*}\vspace{-6pt}
 }
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
 
 \begin{document}
 
 %----------HEADING----------
 \begin{center}
-    \textbf{\Huge \scshape Ankit Kumar} \\ \vspace{1pt}
-    \small +91-9667267972 $|$ \href{mailto:ankit.k.j1999@gmail.com}{ankit.k.j1999@gmail.com} \\
+    \textbf{\Huge \scshape Ankit Kumar} \\ \vspace{2pt}
+    \small +91-9667267972 $|$ \href{mailto:ankit.k.j1999@gmail.com}{ankit.k.j1999@gmail.com} \\ \vspace{1pt}
     \small Gurugram, Haryana, India $|$
     \href{https://www.linkedin.com/in/ankitkj1999/}{\bf LinkedIn} $|$
     \href{https://github.com/ankitkj1999}{\bf GitHub} $|$
@@ -74,13 +74,16 @@ Data Engineer with 3+ years of experience building automated ETL pipelines, stre
 \section{Technical Skills}
 \begin{itemize}[leftmargin=0.15in, label={}]
 \small{\item{
-\textbf{Programming Languages}{:\hspace{0.06cm} Python, SQL, Scala, Bash} \\
-\textbf{Big Data \& Processing}{:\hspace{0.20cm} PySpark, Apache Spark, Spark SQL, GraphX, Pandas, Databricks} \\
-\textbf{Cloud (AWS)}{:\hspace{1.12cm} S3, Redshift, Glue, Kinesis, Lambda, SNS, CloudWatch, EC2, ECR} \\
-\textbf{Streaming \& Search}{:\hspace{0.55cm} AWS Kinesis, RabbitMQ, Elasticsearch / OpenSearch} \\
-\textbf{Databases}{:\hspace{1.75cm} PostgreSQL, MongoDB, Redis, MySQL} \\
-\textbf{Orchestration \& CI/CD}{:\hspace{0.23cm} Apache Airflow, GitHub Actions, Terraform} \\
-\textbf{DevOps \& Backend}{:\hspace{0.77cm} Docker, Linux, Node.js, Express, FastAPI}
+  \renewcommand{\arraystretch}{1.05}
+  \begin{tabularx}{\linewidth}{@{}p{4.4cm} X@{}}
+    \textbf{Programming Languages}: & Python, SQL, Scala, Bash \\
+    \textbf{Big Data \& Processing}: & PySpark, Apache Spark, Spark SQL, GraphX, Pandas, Databricks \\
+    \textbf{Cloud (AWS)}: & S3, Redshift, Glue, Kinesis, Lambda, SNS, CloudWatch, EC2, ECR \\
+    \textbf{Streaming \& Search}: & AWS Kinesis, RabbitMQ, Elasticsearch / OpenSearch \\
+    \textbf{Databases}: & PostgreSQL, MongoDB, Redis, MySQL \\
+    \textbf{Orchestration \& CI/CD}: & Apache Airflow, GitHub Actions, Terraform \\
+    \textbf{DevOps \& Backend}: & Docker, Linux, Node.js, Express, FastAPI \\
+  \end{tabularx}
 }}
 \end{itemize}
 
@@ -89,7 +92,7 @@ Data Engineer with 3+ years of experience building automated ETL pipelines, stre
 \resumeSubHeadingListStart
 
 \resumeSubheading
-{Lemon Tree Hotels}{July 2026 - Present}
+{Lemon Tree Hotels}{June 2026 - Present}
 {Data Engineer}{India}
 \resumeItemListStart
 \resumeItem{Implemented \textbf{Terraform + GitHub Actions CI/CD} for AWS Lambda deployments, standardizing source control, infrastructure provisioning, and repeatable releases through an organized Git repository.}
@@ -99,12 +102,13 @@ Data Engineer with 3+ years of experience building automated ETL pipelines, stre
 \resumeItemListEnd
 
 \resumeSubheading
-{Zalon}{April 2024 - July 2026}
+{Zalon}{April 2024 - June 2026}
 {Data Engineer}{Gurugram, India}
 \resumeItemListStart
-\resumeItem{Led a team of \textbf{4 Data Engineers} in designing, developing, and optimizing data pipelines and ETL processes supporting an e-commerce and SaaS platform.}
-\resumeItem{Built scalable real-time event ingestion using \textbf{AWS Kinesis and Lambda}, staging application events in Amazon S3 and processing \textbf{5M+ daily records} with zero data loss.}
-\resumeItem{Architected \textbf{10+ AWS Glue (PySpark) and Python ETL pipelines} covering \textbf{500,000+ SKUs}; migrated legacy MongoDB records into centralized Redshift/PostgreSQL warehouses with schema validation and deduplication.}
+\resumeItem{Designed and implemented a \textbf{real-time data ingestion architecture} using AWS Kinesis, Lambda, and S3 to capture and process \textbf{5M+ application events daily}, enabling reliable downstream feature and analytics workloads.}
+\resumeItem{Built and optimized \textbf{10+ AWS Glue/PySpark and Python ETL pipelines} for processing \textbf{500K+ SKUs}, implementing schema validation, deduplication, and standardization while migrating legacy MongoDB data into Redshift/PostgreSQL.}
+\resumeItem{Implemented automated \textbf{data quality, schema-drift, deduplication, and normalization frameworks} across ingestion pipelines, improving downstream BI accuracy and reducing stale-data incidents.}
+\resumeItem{Spearheaded \textbf{AWS cloud cost optimization} across data workflows by right-sizing Glue DPU allocations and automating S3 lifecycle policies, cutting monthly data infrastructure spend by \textbf{28\%}.}
 \resumeItemListEnd
 
 \resumeSubheading
@@ -138,7 +142,7 @@ Data Engineer with 3+ years of experience building automated ETL pipelines, stre
 \small{\item{
 \textbf{AWS Certified Cloud Practitioner} \hfill Jan 2025 - Jan 2028 \\
 Published \textbf{65+ technical articles} on GeeksforGeeks, accumulating \textbf{7M+ total views}. \\
-\textbf{Rank \#4} on \href{https://datapathsala.com/u/Ankit\_Kumar\_1999}{DataPathSala} (Data Engineering platform) --- \textbf{301/439 problems solved}, \textbf{64-day streak}, Level 8 Grandmaster.
+\textbf{Rank \#4 (Grandmaster)} on \href{https://datapathsala.com/u/Ankit\_Kumar\_1999}{DataPathSala} (Data Engineering platform).
 }}
 \end{itemize}
 
