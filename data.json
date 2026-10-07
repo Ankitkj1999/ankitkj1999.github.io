@@ -52,11 +52,11 @@
   ],
   "skills": {
     "languages": "Python, SQL, Scala, Bash",
-    "bigData": "PySpark, Apache Spark, Spark SQL, GraphX, Pandas, Databricks",
-    "cloud": "AWS S3, Redshift, Glue, Kinesis, Lambda, SNS, CloudWatch, EC2, ECR",
-    "streaming": "AWS Kinesis, RabbitMQ, Elasticsearch / OpenSearch",
-    "databases": "PostgreSQL, MongoDB, Redis, MySQL",
-    "orchestration": "Apache Airflow, GitHub Actions, Terraform",
+    "bigData": "PySpark, Apache Spark, Spark SQL, Databricks, Pandas, GraphX",
+    "cloud": "AWS (S3, Redshift, Glue, Athena, Lambda, EC2), GCP (BigQuery, GCS, Cloud Composer, Pub/Sub, Looker Studio), Azure (ADF, Synapse, ADLS Gen2), Snowflake",
+    "streaming": "AWS Kinesis, GCP Pub/Sub, RabbitMQ, Elasticsearch / OpenSearch",
+    "databases": "Snowflake, Amazon Redshift, Google BigQuery, Azure Synapse, PostgreSQL, MongoDB, Redis",
+    "orchestration": "Apache Airflow, Cloud Composer, GitHub Actions, Terraform",
     "devops": "Docker, Linux, Node.js, FastAPI"
   },
   "awards": [
